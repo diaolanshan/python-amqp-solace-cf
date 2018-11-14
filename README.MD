@@ -13,7 +13,7 @@ The app use the paho lib, so add [qpid proton](https://qpid.apache.org/) in your
 The app contains to url,
 
 - http://{link_to_app}/amqp/solace/queue, this will use the solace SEMP v2 to create a new durable queue which is : python-amqp-solace-queue.
-- http://{link_to_app}/amqp/solace/subscribe publish 6 messages to the queue: _python-amqp-solace-queue_
+- http://{link_to_app}/amqp/solace/publish publish 6 messages to the queue: _python-amqp-solace-queue_
 - http://{link_to_app}/amqp/solace/subscribe subscribe 6 messages the queue: _python-amqp-solace-queue_
 
 and check the app log and the connections in the soladmin/gui to verify.

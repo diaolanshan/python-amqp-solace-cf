@@ -5,7 +5,7 @@ from proton.reactor import Container
 
 """
 Proton event handler class
-Creates an amqp connection using ANONYMOUS or PLAIN authentication.
+Creates an amqp connection using PLAIN authentication.
 Then attaches a receiver link to conusme messages from the broker.
 """
 
